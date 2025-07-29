@@ -10,6 +10,110 @@ sites:
       - "Content-Type: application/json"
     icon: https://data.footprintlab.io/favicon.ico
 
+  - name: Activity Classification Systems
+    url: $ACTIVITY_CLASSIFICATION_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+    
+  - name: Levels
+    url: $LEVELS_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Sources
+    url: $SOURCES_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Regions
+    url: $REGIONS_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Countries
+    url: $COUNTRIES_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Impact Categories
+    url: $IMPACT_CATEGORIES_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Metrics
+    url: $METRICS_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Scopes
+    url: $SCOPES_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Countries
+    url: $COUNTRIES_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+      
+  - name: Footprint Free
+    url: $FOOTPRINT_FREE_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+
+  - name: Footprint Bronze
+    url: $FOOTPRINT_BRONZE_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+
+  - name: Footprint Silver
+    url: $FOOTPRINT_SILVER_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+
+  - name: Footprint Gold
+    url: $FOOTPRINT_GOLD_URL
+    headers:
+      - "Authorization: Bearer $BEARER_TOKEN"
+      - "x-api-key: $API_KEY"
+      - "Content-Type: application/json"
+    icon: https://data.footprintlab.io/favicon.ico
+
 status-website:
   baseUrl: /api-health
   logoUrl: https://raw.githubusercontent.com/FootprintLab/api-health/refs/heads/master/assets/footprintlab_logo.png  
