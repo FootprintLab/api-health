@@ -25,12 +25,29 @@ jobs:
   release:
     name: Check status
     runs-on: ubuntu-latest
+    env:
+      COGNITO_URL: ${{ secrets.COGNITO_URL }}
+      COGNITO_CLIENT_ID: ${{ secrets.COGNITO_CLIENT_ID }}
+      COGNITO_CLIENT_SECRET: ${{ secrets.COGNITO_CLIENT_SECRET }}
+      API_KEY: ${{ secrets.API_KEY }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Get Bearer Token
+        id: get_token
+        run: |
+          TOKEN=$(curl -s -X POST "${COGNITO_URL}" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -d "grant_type=client_credentials&client_id=${COGNITO_CLIENT_ID}&client_secret=${COGNITO_CLIENT_SECRET}" \
+            | python3 -c "import sys, json; print(json.load(sys.stdin)['access_token'])" | tr -d '\r\n')
+          echo "token=$TOKEN" >> $GITHUB_OUTPUT
       - name: Check endpoint status
         uses: upptime/uptime-monitor@v1.40.1
         with:
@@ -38,3 +55,4 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
+          BEARER_TOKEN: ${{ steps.get_token.outputs.token }}
