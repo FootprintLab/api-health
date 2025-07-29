@@ -19,8 +19,6 @@ on:
   push:
     paths:
       - ".upptimerc.yml"
-  repository_dispatch:
-    types: [setup]
   workflow_dispatch:
 jobs:
   release:
@@ -32,12 +30,6 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-      - name: Update template
-        uses: upptime/uptime-monitor@v1.40.1
-        with:
-          command: "update-template"
-        env:
-          GH_PAT: ${{ secrets.GH_PAT || github.token }}
       - name: Update response time
         uses: upptime/uptime-monitor@v1.40.1
         with:
