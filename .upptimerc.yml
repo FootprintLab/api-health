@@ -20,3 +20,6 @@ status-website:
     - title: Status
       href: /
   theme: light
+
+i18n:
+  footer: "https://www.footprintlab.io/"
