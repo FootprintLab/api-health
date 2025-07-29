@@ -22,4 +22,4 @@ status-website:
   theme: light
 
 i18n:
-  footer: "https://www.footprintlab.io/"
+  footer: "[FootprintLab](https://www.footprintlab.io/)"
