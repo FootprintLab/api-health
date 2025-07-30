@@ -1,7 +1,7 @@
 url: $METRICS_URL
 status: up
 code: 200
-responseTime: 651
-lastUpdated: 2025-07-30T00:08:31.189Z
+responseTime: 583
+lastUpdated: 2025-07-30T00:44:12.926Z
 startTime: 2025-07-30T00:00:03.573Z
 generator: Upptime <https://github.com/upptime/upptime>
