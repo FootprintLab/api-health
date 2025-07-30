@@ -122,7 +122,7 @@ status-website:
   introMessage: "Welcome to the FootprintLab API Health status page. Here you can find the current status of our APIs and services."
   navbar:
     - title: Status
-      href: /
+      href: /api-health
   theme: light
 
 i18n:
