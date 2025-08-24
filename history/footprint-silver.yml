@@ -1,7 +1,7 @@
 url: $FOOTPRINT_SILVER_URL
-status: down
-code: 502
-responseTime: 509
-lastUpdated: 2025-08-24T04:49:06.636Z
+status: up
+code: 200
+responseTime: 432
+lastUpdated: 2025-08-24T05:14:48.101Z
 startTime: 2025-07-30T00:00:20.429Z
 generator: Upptime <https://github.com/upptime/upptime>
