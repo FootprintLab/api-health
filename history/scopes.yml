@@ -1,7 +1,7 @@
 url: $SCOPES_URL
 status: down
-code: 404
-responseTime: 483
-lastUpdated: 2025-08-24T04:48:56.799Z
+code: 403
+responseTime: 552
+lastUpdated: 2025-08-24T23:23:31.008Z
 startTime: 2025-07-30T00:00:08.013Z
 generator: Upptime <https://github.com/upptime/upptime>
