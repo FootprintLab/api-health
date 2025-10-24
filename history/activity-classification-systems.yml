@@ -1,7 +1,7 @@
 url: $ACTIVITY_CLASSIFICATION_URL
-status: up
-code: 200
-responseTime: 2624
-lastUpdated: 2025-10-23T23:22:02.390Z
+status: down
+code: 502
+responseTime: 28449
+lastUpdated: 2025-10-24T05:04:09.490Z
 startTime: 2025-07-29T23:59:40.968Z
 generator: Upptime <https://github.com/upptime/upptime>
