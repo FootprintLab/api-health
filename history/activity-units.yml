@@ -1,7 +1,7 @@
 url: $ACTIVITY_UNITS_URL
-status: down
-code: 504
-responseTime: 29877
-lastUpdated: 2025-10-25T18:38:01.549Z
+status: up
+code: 200
+responseTime: 7851
+lastUpdated: 2025-10-25T18:48:29.398Z
 startTime: 2025-07-29T07:26:35.773Z
 generator: Upptime <https://github.com/upptime/upptime>
