@@ -1,7 +1,7 @@
 url: $IMPACT_CATEGORIES_URL
-status: down
-code: 502
-responseTime: 495
-lastUpdated: 2025-10-29T23:20:43.876Z
+status: up
+code: 200
+responseTime: 776
+lastUpdated: 2025-10-29T23:24:20.335Z
 startTime: 2025-07-29T23:59:59.358Z
 generator: Upptime <https://github.com/upptime/upptime>
