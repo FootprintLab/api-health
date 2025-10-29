@@ -1,7 +1,7 @@
 url: $COUNTRIES_URL
-status: down
-code: 502
-responseTime: 701
-lastUpdated: 2025-10-29T11:15:02.626Z
+status: up
+code: 200
+responseTime: 787
+lastUpdated: 2025-10-29T22:13:18.726Z
 startTime: 2025-07-29T23:59:56.374Z
 generator: Upptime <https://github.com/upptime/upptime>
