@@ -1,7 +1,7 @@
 url: $REGIONS_URL
-status: down
-code: 502
-responseTime: 618
-lastUpdated: 2025-10-30T02:51:33.606Z
+status: up
+code: 200
+responseTime: 587
+lastUpdated: 2025-10-30T20:37:49.644Z
 startTime: 2025-07-29T23:59:52.766Z
 generator: Upptime <https://github.com/upptime/upptime>
