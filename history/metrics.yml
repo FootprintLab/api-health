@@ -1,7 +1,7 @@
 url: $METRICS_URL
 status: down
 code: 403
-responseTime: 555
-lastUpdated: 2025-11-02T23:22:34.758Z
+responseTime: 185
+lastUpdated: 2025-11-03T23:24:08.669Z
 startTime: 2025-07-30T00:00:03.573Z
 generator: Upptime <https://github.com/upptime/upptime>
