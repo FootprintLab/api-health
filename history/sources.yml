@@ -1,7 +1,7 @@
 url: $SOURCES_URL
-status: up
-code: 200
-responseTime: 423
-lastUpdated: 2025-11-25T23:24:55.787Z
+status: down
+code: 502
+responseTime: 243
+lastUpdated: 2025-11-26T13:06:27.840Z
 startTime: 2025-07-29T23:59:48.187Z
 generator: Upptime <https://github.com/upptime/upptime>
