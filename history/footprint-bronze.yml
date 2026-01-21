@@ -1,7 +1,7 @@
 url: $FOOTPRINT_BRONZE_URL
-status: up
-code: 200
-responseTime: 610
-lastUpdated: 2026-01-21T03:59:38.398Z
+status: down
+code: 400
+responseTime: 576
+lastUpdated: 2026-01-21T04:48:54.597Z
 startTime: 2025-07-30T00:00:16.867Z
 generator: Upptime <https://github.com/upptime/upptime>
