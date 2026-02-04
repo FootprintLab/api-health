@@ -1,7 +1,7 @@
 url: $FOOTPRINT_FREE_URL
-status: down
-code: 400
-responseTime: 231
-lastUpdated: 2026-02-04T06:33:27.159Z
+status: up
+code: 200
+responseTime: 154
+lastUpdated: 2026-02-04T10:22:56.204Z
 startTime: 2025-07-30T00:00:13.001Z
 generator: Upptime <https://github.com/upptime/upptime>
