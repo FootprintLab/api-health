@@ -1,7 +1,7 @@
 url: $FOOTPRINT_GOLD_URL
-status: down
-code: 400
-responseTime: 622
-lastUpdated: 2026-02-10T23:48:16.861Z
+status: up
+code: 200
+responseTime: 725
+lastUpdated: 2026-02-11T10:10:04.182Z
 startTime: 2025-07-30T00:00:24.373Z
 generator: Upptime <https://github.com/upptime/upptime>
